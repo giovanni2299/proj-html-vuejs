@@ -1,12 +1,18 @@
 <script>
 import HeadreApp from './components/HeadreApp.vue';
-import MianApp from './components/MianApp.vue';
+import MainApp from './components/MainApp.vue';
 import FooterApp from './components/FooterApp.vue';
+import {store} from './store.js'
 
 export default{
+  data(){
+    return{
+      store: store
+    }
+  },
   components:{
     HeadreApp,
-    MianApp,
+    MainApp,
     FooterApp
   }
 }
@@ -14,7 +20,7 @@ export default{
 
 <template>
   <HeadreApp/>
-  <MianApp/>
+  <MainApp/>
   <FooterApp/>
 
 </template>
@@ -22,4 +28,4 @@ export default{
 <style lang="scss">
 
 
-</style>
+</style>./components/MainApp.vue/index.js
