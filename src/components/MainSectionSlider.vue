@@ -22,6 +22,26 @@
 <style lang="scss" scoped>
 @use '../style/partials/main.scss';
 @use '../style/partials/reset.scss';
-
+.img-bg{
+    display: block;
+    background-image: url('/public/img/slider-autocar-5.jpg');
+    height: 620px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+}
+.description-section{
+    color: white;
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    font-weight: bold;
+ 
+}
+.des-title{
+    margin-bottom: 0;
+}
 
 </style>
