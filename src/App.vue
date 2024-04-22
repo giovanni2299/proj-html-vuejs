@@ -2,12 +2,41 @@
 import HeadreApp from './components/HeadreApp.vue';
 import MainApp from './components/MainApp.vue';
 import FooterApp from './components/FooterApp.vue';
-import {store} from './store.js'
+
 
 export default{
   data(){
     return{
-      store: store
+      headerMenu:[
+        {
+            name:'Home',
+            src: '#'
+        },
+        {
+            name:'About Us',
+            src: '#'
+        },
+        {
+            name:'Veichles',
+            src:'#'
+        },
+        {
+            name:'Dealers',
+            src:'#'
+        },
+        {
+            name:'Packages',
+            src:'#'
+        },
+        {
+            name:'Blog',
+            src:'#'
+        },
+        {
+            name:'Contact',
+            src:'#'
+        }
+    ]
     }
   },
   components:{
@@ -19,7 +48,7 @@ export default{
 </script>
 
 <template>
-  <HeadreApp/>
+  <HeadreApp :headerItem="headerMenu"/>
   <MainApp/>
   <FooterApp/>
 

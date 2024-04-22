@@ -5,8 +5,8 @@
                 <li class="col">
                     <img :src="`/img/favicon-autocar.png`" alt="">
                 </li>
-                <li v-for="element in  store.headerMenu" class="col">
-                    <a href="#">
+                <li v-for="element in headerItem" class="col">
+                    <a :href="element.src">
                         {{element.name}}
                     </a>
                 </li>
@@ -40,6 +40,11 @@ import {store} from '../store.js'
         data(){
             return{
                 store: store
+            }
+        },
+        props:{
+            headerItem:{
+                type: Object
             }
         }
     }
