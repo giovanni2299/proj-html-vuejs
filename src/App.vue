@@ -55,6 +55,6 @@ export default{
 </template>
 
 <style lang="scss">
+@use './style/general.scss'
 
-
-</style>./components/MainApp.vue/index.js
+</style>

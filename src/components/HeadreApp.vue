@@ -51,35 +51,6 @@ import {store} from '../store.js'
 </script>
 
 <style lang="scss" scoped>
-
-.button-text{
-    font-size: 10px;
-}
-.flex{
-    display: flex;
-    align-items: center;
-    gap: 5px;
-}
-.container{
-    max-width: 1024px;
-    margin: 0 auto;
-}
-.row{
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-.img-button{
-    width: 20px;
-    
-}
-a{
-    text-decoration:none ;
-    color: currentColor;
-    
-}
-ul, ol, menu{
-    list-style: none;
-}
-
+@use '../style/partials/header.scss';
+@use '../style/partials/reset.scss';
 </style>
