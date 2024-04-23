@@ -22,8 +22,8 @@
                     <span class="button-text">Add car</span>
                     
                 </button>
-                <button class="btn flex">
-                    hamburger menu
+                <button class="btn btn-ham flex">
+                    <font-awesome-icon :icon="['fas', 'bars']" />
                 </button>
                 <button class="btn flex">
                     <img class="img-button" :src="`/img-icon/headphones.png`" alt="">
@@ -87,7 +87,18 @@ import {store} from '../store.js'
 }
 
 .img-button{
+    filter: invert(1);
     width: 20px;
     
+}
+.btn{
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+.btn.btn-ham{
+    height: 40px;
 }
 </style>

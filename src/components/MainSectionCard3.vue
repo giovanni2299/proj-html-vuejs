@@ -7,12 +7,30 @@
                     <img :src="`/img/bmw-8-series-convertible-technical-data-sp-desktop-400x300.jpg`" alt="">
                 </div>
                 <div class="card-body">
-                    <p>BMW M9</p>
-                    <p>ciao</p>
+                    <p>
+                        BMW M9
+                        <font-awesome-icon :icon="['fas', 'circle-check']" />
+                    </p>
+                    <p class="gender-car">
+                        Cabrio
+
+                    </p>
                     <ul class="flex">
-                        <li>34'000</li>
-                        <li>BMW</li>
-                        <li>Electric</li>
+                        <li>
+                            <font-awesome-icon :icon="['fas', 'dollar-sign']" />
+                            34'000
+                        </li>
+                        <li>
+                            <font-awesome-icon :icon="['fas', 'car']" />
+                            BMW
+                        </li>
+                        <li>
+                            <font-awesome-icon :icon="['fas', 'gas-pump']" />
+                            Electric
+                        </li>
+                        <li class="heart">
+                            <font-awesome-icon :icon="['fas', 'heart']" />
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -23,7 +41,28 @@
                     <img :src="`/img/bmw88-400x300.jpg`" alt="">
                 </div>
                 <div class="card-body">
+                    <p>
+                        BMW M8
+                        <font-awesome-icon :icon="['fas', 'circle-check']" />
+                    </p>
+                    <p class="gender-car">
+                        Cabrio
 
+                    </p>
+                    <ul class="flex">
+                        <li>
+                            <font-awesome-icon :icon="['fas', 'dollar-sign']" />
+                            34'000
+                        </li>
+                        <li>
+                            <font-awesome-icon :icon="['fas', 'car']" />
+                            BMW
+                        </li>
+                        <li>
+                            <font-awesome-icon :icon="['fas', 'gas-pump']" />
+                            Diesel
+                        </li>
+                    </ul>
                 </div>
             </div>
 
@@ -35,7 +74,28 @@
 
                 </div>
                 <div class="card-body">
+                    <p>
+                        BMW M4
+                        <font-awesome-icon :icon="['fas', 'circle-check']" />
+                    </p>
+                    <p class="gender-car">
+                        Cabrio
 
+                    </p>
+                    <ul class="flex">
+                        <li>
+                            <font-awesome-icon :icon="['fas', 'dollar-sign']" />
+                            34'000
+                        </li>
+                        <li>
+                            <font-awesome-icon :icon="['fas', 'car']" />
+                            BMW
+                        </li>
+                        <li>
+                            <font-awesome-icon :icon="['fas', 'gas-pump']" />
+                            Gasoline
+                        </li>
+                    </ul>
                 </div>
             </div>
 
@@ -47,7 +107,28 @@
 
                 </div>
                 <div class="card-body">
+                    <p>
+                        Seat Ibiza
+                        <font-awesome-icon :icon="['fas', 'circle-check']" />
+                    </p>
+                    <p class="gender-car">
+                        Hatchback
 
+                    </p>
+                    <ul class="flex">
+                        <li>
+                            <font-awesome-icon :icon="['fas', 'dollar-sign']" />
+                            27'000
+                        </li>
+                        <li>
+                            <font-awesome-icon :icon="['fas', 'car']" />
+                            Seat
+                        </li>
+                        <li>
+                            <font-awesome-icon :icon="['fas', 'gas-pump']" />
+                            Electric
+                        </li>
+                    </ul>
                 </div>
             </div>
 
@@ -59,7 +140,28 @@
 
                 </div>
                 <div class="card-body">
+                    <p>
+                        Seat Arona
+                        <font-awesome-icon :icon="['fas', 'circle-check']" />
+                    </p>
+                    <p class="gender-car">
+                        SUV
 
+                    </p>
+                    <ul class="flex">
+                        <li>
+                            <font-awesome-icon :icon="['fas', 'dollar-sign']" />
+                            68'000
+                        </li>
+                        <li>
+                            <font-awesome-icon :icon="['fas', 'car']" />
+                            Seat
+                        </li>
+                        <li>
+                            <font-awesome-icon :icon="['fas', 'gas-pump']" />
+                            Gasoline
+                        </li>
+                    </ul>
                 </div>
             </div>
 
@@ -71,7 +173,28 @@
 
                 </div>
                 <div class="card-body">
+                    <p>
+                        Volswagen Taigo
+                        <font-awesome-icon :icon="['fas', 'circle-check']" />
+                    </p>
+                    <p class="gender-car">
+                        Suv
 
+                    </p>
+                    <ul class="flex">
+                        <li>
+                            <font-awesome-icon :icon="['fas', 'dollar-sign']" />
+                            52'000
+                        </li>
+                        <li>
+                            <font-awesome-icon :icon="['fas', 'car']" />
+                            Volswagen
+                        </li>
+                        <li>
+                            <font-awesome-icon :icon="['fas', 'gas-pump']" />
+                            Electric
+                        </li>
+                    </ul>
                 </div>
             </div>
 
@@ -83,7 +206,28 @@
 
                 </div>
                 <div class="card-body">
+                    <p>
+                        Volswagen T-Cross
+                        <font-awesome-icon :icon="['fas', 'circle-check']" />
+                    </p>
+                    <p class="gender-car">
+                        SUV
 
+                    </p>
+                    <ul class="flex">
+                        <li>
+                            <font-awesome-icon :icon="['fas', 'dollar-sign']" />
+                            47'000
+                        </li>
+                        <li>
+                            <font-awesome-icon :icon="['fas', 'car']" />
+                            Volswagen
+                        </li>
+                        <li>
+                            <font-awesome-icon :icon="['fas', 'gas-pump']" />
+                            Diesel
+                        </li>
+                    </ul>
                 </div>
             </div>
 
@@ -95,7 +239,28 @@
 
                 </div>
                 <div class="card-body">
+                    <p>
+                        Volswagen Passat
+                        <font-awesome-icon :icon="['fas', 'circle-check']" />
+                    </p>
+                    <p class="gender-car">
+                        Sedan
 
+                    </p>
+                    <ul class="flex">
+                        <li>
+                            <font-awesome-icon :icon="['fas', 'dollar-sign']" />
+                            32'000
+                        </li>
+                        <li>
+                            <font-awesome-icon :icon="['fas', 'car']" />
+                            Sedan
+                        </li>
+                        <li>
+                            <font-awesome-icon :icon="['fas', 'gas-pump']" />
+                            Diesel
+                        </li>
+                    </ul>
                 </div>
             </div>
 
@@ -121,14 +286,23 @@ export default {
 }
 .flex{
     display: flex;
-    gap: 5px;
+    gap: 8px;
 }
 .col-3 {
     width: calc(3 * 100% / 12);
 }
 
 .card {
+    font-size: 14px;
     box-shadow: 2px 2px 2px 2px #e1e1e1;
     padding: 10px;
+}
+.gender-car{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.heart{
+    margin: auto;
+    color: #aaaaaa;
 }
 </style>
