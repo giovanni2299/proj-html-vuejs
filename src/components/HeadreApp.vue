@@ -1,5 +1,5 @@
 <template>
-    <header>
+    <header class="header-page">
         <div class="container">
             <ul class="row">
                 <li class="col logo-col">
@@ -51,12 +51,15 @@ import {store} from '../store.js'
 </script>
 
 <style lang="scss" scoped>
+.header-page{
+    padding: 20px;
+}
 .container{
     max-width: 1024px;
     margin: 0 auto;
 }
 .button-text{
-    font-size: 10px;
+    font-size: 14px;
 }
 .flex{
     display: flex;
@@ -76,15 +79,15 @@ import {store} from '../store.js'
 .logo-col{
     display: flex;
     align-items: center;
-    gap: 5px;
-    font-weight: bold ;
-    font-size: 18px;
 }
 
 .logo{
     width: 150px;
 }
-
+.col{
+    font-size: 18px;
+    line-height: 24px;
+}
 .img-button{
     filter: invert(1);
     width: 20px;

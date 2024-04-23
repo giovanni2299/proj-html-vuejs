@@ -89,14 +89,17 @@ import MainSectionCard4 from './MainSectionCard4.vue';
     align-items: center;
     cursor: pointer;
     border: 1px solid gray;
-    font-size: 12px;
+    font-size: 14px;
     position: relative;
     
 }
 .col.squere.btn{
+    display: flex;
+    justify-content: center;
     cursor: pointer;
     background-color: black;
     color: white;
+    font-size: 14px;
 }
 .icon{
     position: absolute;

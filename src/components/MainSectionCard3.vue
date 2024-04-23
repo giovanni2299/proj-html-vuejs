@@ -319,7 +319,7 @@ export default {
 }
 
 .card {
-    font-size: 13px;
+    font-size: 14px;
     box-shadow: 2px 2px 2px 2px #e1e1e1;
     padding: 10px;
     cursor: pointer;
