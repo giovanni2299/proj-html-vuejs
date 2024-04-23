@@ -20,6 +20,7 @@ import
     faQuoteRight,
     
 } from '@fortawesome/free-solid-svg-icons'
+
 import {faThumbsUp, faStar as faStarEmp} from '@fortawesome/free-regular-svg-icons'
 
 library.add(faBars, faCircleCheck, faDollarSign, faCar, faGasPump, faHeart, faArrowRight, faWrench, faThumbsUp, faStarEmp, faQuoteRight,)

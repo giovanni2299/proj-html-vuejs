@@ -13,7 +13,7 @@
                             <p class="date-descript">06.07.2022 - Auto Car</p>
                         </div>
                         <div class="card-body flex">
-                            <h1>Why BMW is loved?</h1>
+                            <h1 class="title">Why BMW is loved?</h1>
                             <p class="description">BMW's have a different line with their design and almost[..]</p>
                             <div class="button">
                                 More
@@ -29,7 +29,7 @@
                             <p class="date-descript">06.07.2022 - Auto Car</p>
                         </div>
                         <div class="card-body flex">
-                            <h1>How is solid Asudi?</h1>
+                            <h1 class="title">How is solid Asudi?</h1>
                             <p class="description">According to Euro NCAP data with different test organizations. there[..]</p>
                             <div class="button">
                                 More
@@ -45,7 +45,7 @@
                             <p class="date-descript">06.07.2022 - Auto Car</p>
                         </div>
                         <div class="card-body flex">
-                            <h1>What brand is Skoda?</h1>
+                            <h1 class="title">What brand is Skoda?</h1>
                             <p class="description">Skoda is one of leading automotive manufactures on the[..]</p>
                             <div class="button">
                                 More
@@ -61,7 +61,7 @@
                             <p class="date-descript">06.07.2022 - Auto Car</p>
                         </div>
                         <div class="card-body flex">
-                            <h1>Is the Auris Diesel?</h1>
+                            <h1 class="title">Is the Auris Diesel?</h1>
                             <p class="description">You will have a queiter veicle that burns less than[..]</p>
                             <div class="button">
                                 More
@@ -141,8 +141,12 @@
     width: 100px;
     border: 1px solid black;
 }
+.title{
+    font-size: 20px;
+}
 .description{
     text-align: left;
     font-size: 12px;
+    margin-bottom: 20px;
 }
 </style>
