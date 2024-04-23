@@ -16,6 +16,7 @@
         <MainSectionCard2/>
         <MainSectionCard3/>
         <MainSectionCard4/>
+        
     </div>
 </template>
 
@@ -27,7 +28,7 @@ import MainSectionCard4 from './MainSectionCard4.vue';
         components:{
             MainSectionCard2,
             MainSectionCard3,
-            MainSectionCard4
+            MainSectionCard4,
         }
     }
 </script>

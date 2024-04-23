@@ -7,9 +7,22 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
-import { faBars, faCircleCheck, faDollarSign, faCar, faGasPump, faHeart, faArrowRight} from '@fortawesome/free-solid-svg-icons'
+import
+{ 
+    faBars, 
+    faCircleCheck, 
+    faDollarSign, 
+    faCar, 
+    faGasPump, 
+    faHeart, 
+    faArrowRight, 
+    faWrench,
+    faQuoteRight,
+    
+} from '@fortawesome/free-solid-svg-icons'
+import {faThumbsUp, faStar as faStarEmp} from '@fortawesome/free-regular-svg-icons'
 
-library.add(faBars, faCircleCheck, faDollarSign, faCar, faGasPump, faHeart, faArrowRight)
+library.add(faBars, faCircleCheck, faDollarSign, faCar, faGasPump, faHeart, faArrowRight, faWrench, faThumbsUp, faStarEmp, faQuoteRight,)
 
 const app = createApp(App)
 
