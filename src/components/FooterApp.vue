@@ -3,20 +3,54 @@
         <div class="container">
             <div class="row">
                 <div class="col4">
-                    <img src="/img/logo-footer-autocar11.png" alt="">
-
+                    <div>
+                        <img src="/img/logo-footer-autocar11.png" alt="">
+                    </div>
+                    <ul>
+                        <li class="mg-b">
+                            <font-awesome-icon class="icon" :icon="['fas', 'location-dot']" />
+                            <span class="text-icon">New Jersey, USA</span>
+                        </li>
+                        <li class="mg-b">
+                            <font-awesome-icon class="icon" :icon="['fas', 'phone-volume']" />
+                            <span class="text-icon">+1 (234) 567 89 10</span>
+                        </li>
+                        <li class="mg-b">
+                            <font-awesome-icon class="icon" :icon="['far', 'envelope']" />
+                            <span class="text-icon">exemple@exemple.com</span>
+                        </li >
+                        <div class="brand-container">
+                            <font-awesome-icon class="icon" :icon="['fab', 'facebook-f']" />
+                            <font-awesome-icon  class="icon central" :icon="['fab', 'instagram']" />
+                            <font-awesome-icon class="icon" :icon="['fab', 'twitter']" />
+                        </div>
+                    </ul>
                 </div>
-                <div class="col4 central">
+                <div class="col4 grow">
                     <h2>Join Our Newsletter</h2>
                     <p class="text">Subscribe to be informated about our services and products.</p>
                     <input class="email" type="email" placeholder="Your Email Adress">
                     <div class="btn"> Subscribe <font-awesome-icon :icon="['fas', 'arrow-right']" /> </div class="btn">
                 </div>
                 <div class="col4">
-                    <h2>My Account</h2>
+                    <h2 class="mg-b">My Account</h2>
+                    <ul>
+                        <li class="mg-b">- My Account</li>
+                        <li class="mg-b">- Checkout</li>
+                        <li class="mg-b">- Cart</li>
+                        <li class="mg-b">- Packages</li>
+                        <li class="mg-b">- Add Car</li>
+                    </ul>
                 </div>
                 <div class="col4">
-                    <h2>Quick Links</h2>
+                    <h2 class="mg-b">Quick Links</h2>
+                    <ul>
+                        <li class="mg-b">- Home</li>
+                        <li class="mg-b">- About Us</li>
+                        <li class="mg-b">- Blog</li>
+                        <li class="mg-b">- Contact</li>
+                        <li class="mg-b">- Refund & Returns</li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -24,12 +58,20 @@
 </template>
 
 <script>
+import {store} from '../store.js'
     export default {
-        
+        data(){
+            return{
+                store: store,
+            }
+        }
     }
 </script>
 
 <style lang="scss" scoped>
+ul, ol, menu{
+    list-style: none;
+}
 .page-footer{
     background-color: black;
     padding: 50px;
@@ -42,16 +84,21 @@
 .row{
     display: flex;
     flex-wrap: wrap;
+    gap: 20px;
+    
+    
 }
 .col4{
-    width: calc(3 * 100% / 12);
+    width: calc(100% / 4 - 20px);
     padding: 10px;
 }
-.col4.central{
+
+.col4.grow{
     flex-grow: 1;
 }
 .col4 img{
     width: 150px;
+    margin-bottom: 15px;
 }
 .text{
     margin-top: 10px;
@@ -75,5 +122,27 @@
     background-color: white;
     text-align: center;
     color: #aaaaaa;
+}
+.mg-b{
+    margin-bottom: 10px;
+}
+.brand-container{
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.icon{
+    font-size: 20px;
+    margin-right: 10px;
+    
+}
+.icon.central{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.text-icon{
+    font-size: 14px;
 }
 </style>

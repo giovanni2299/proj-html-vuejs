@@ -36,8 +36,9 @@ export default{
             name:'Contact',
             src:'#'
         }
-    ]
+    ],
     }
+    
   },
   components:{
     HeadreApp,

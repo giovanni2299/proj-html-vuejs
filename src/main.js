@@ -18,12 +18,17 @@ import
     faArrowRight, 
     faWrench,
     faQuoteRight,
+    faLocationDot,
+    faPhoneVolume
+    
     
 } from '@fortawesome/free-solid-svg-icons'
 
-import {faThumbsUp, faStar as faStarEmp} from '@fortawesome/free-regular-svg-icons'
+import {faThumbsUp, faEnvelope, faStar as faStarEmp} from '@fortawesome/free-regular-svg-icons'
 
-library.add(faBars, faCircleCheck, faDollarSign, faCar, faGasPump, faHeart, faArrowRight, faWrench, faThumbsUp, faStarEmp, faQuoteRight,)
+import { faInstagram, faFacebookF, faTwitter} from '@fortawesome/free-brands-svg-icons' 
+
+library.add(faBars, faCircleCheck, faDollarSign, faCar, faGasPump, faHeart, faArrowRight, faWrench, faThumbsUp, faStarEmp, faQuoteRight, faLocationDot, faPhoneVolume, faEnvelope, faInstagram, faFacebookF, faTwitter)
 
 const app = createApp(App)
 
