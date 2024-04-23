@@ -9,15 +9,15 @@
                     <ul>
                         <li class="mg-b">
                             <font-awesome-icon class="icon" :icon="['fas', 'location-dot']" />
-                            <span class="text-icon">New Jersey, USA</span>
+                            <span class="text-icon">{{this.store.footerArrayCompanyInfo.adress}}</span>
                         </li>
                         <li class="mg-b">
                             <font-awesome-icon class="icon" :icon="['fas', 'phone-volume']" />
-                            <span class="text-icon">+1 (234) 567 89 10</span>
+                            <span class="text-icon">{{this.store.footerArrayCompanyInfo.number}}</span>
                         </li>
                         <li class="mg-b">
                             <font-awesome-icon class="icon" :icon="['far', 'envelope']" />
-                            <span class="text-icon">exemple@exemple.com</span>
+                            <span class="text-icon">{{this.store.footerArrayCompanyInfo.mail}}</span>
                         </li >
                         <div class="brand-container">
                             <font-awesome-icon class="icon" :icon="['fab', 'facebook-f']" />
@@ -146,5 +146,6 @@ ul, ol, menu{
 
 .text-icon{
     font-size: 14px;
+    cursor: pointer;
 }
 </style>

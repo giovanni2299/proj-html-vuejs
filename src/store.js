@@ -23,7 +23,6 @@ export const store = reactive({
             src: '#'
         },
     ],
-
     footerArrayLinks: [
         {
             name: 'Home',
@@ -45,5 +44,17 @@ export const store = reactive({
             name: 'Refound & Returns',
             src: '#'
         },
+    ],
+    footerArrayCompanyInfo:[
+        {
+            adress: 'New Jersey, USA'
+        },
+        {
+            number: '+1(234) 567 89 10'
+        },
+        {
+            mail: 'exemple@exemple.com'
+        },
+
     ]
 })
