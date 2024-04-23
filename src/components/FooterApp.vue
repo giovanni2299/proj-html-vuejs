@@ -35,21 +35,20 @@
                 <div class="col4">
                     <h2 class="mg-b">My Account</h2>
                     <ul>
-                        <li class="mg-b">- My Account</li>
-                        <li class="mg-b">- Checkout</li>
-                        <li class="mg-b">- Cart</li>
-                        <li class="mg-b">- Packages</li>
-                        <li class="mg-b">- Add Car</li>
+                        <li v-for="(element, i) in store.footerArrayAccount" :key="i" class="mg-b item">
+                            - {{element.name}}
+
+                        </li>
+                        
                     </ul>
                 </div>
                 <div class="col4">
                     <h2 class="mg-b">Quick Links</h2>
                     <ul>
-                        <li class="mg-b">- Home</li>
-                        <li class="mg-b">- About Us</li>
-                        <li class="mg-b">- Blog</li>
-                        <li class="mg-b">- Contact</li>
-                        <li class="mg-b">- Refund & Returns</li>
+                        <li v-for="(element, i) in store.footerArrayLinks" :key="i" class="mg-b item">
+                            - {{element.name}}
+                        </li>
+                        
                     </ul>
                 </div>
             </div>
@@ -125,6 +124,9 @@ ul, ol, menu{
 }
 .mg-b{
     margin-bottom: 10px;
+}
+.item{
+    cursor: pointer;
 }
 .brand-container{
     width: 150px;
