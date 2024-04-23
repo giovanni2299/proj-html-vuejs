@@ -1,4 +1,5 @@
 <template>
+    <!-- PRIMA SECTION DEL MAIN -->
     <div class="padding container">
         <div class="flex margin-bottom">
             <div class="col squere">Keywords</div>
@@ -14,16 +15,19 @@
         </div>
         <MainSectionCard2/>
         <MainSectionCard3/>
+        <MainSectionCard4/>
     </div>
 </template>
 
 <script>
-import MainSectionCard2 from './MainSectionCard2.vue'
-import MainSectionCard3 from './MainSectionCard3.vue'
+import MainSectionCard2 from './MainSectionCard2.vue';
+import MainSectionCard3 from './MainSectionCard3.vue';
+import MainSectionCard4 from './MainSectionCard4.vue';
     export default {
         components:{
             MainSectionCard2,
-            MainSectionCard3
+            MainSectionCard3,
+            MainSectionCard4
         }
     }
 </script>
@@ -52,6 +56,7 @@ import MainSectionCard3 from './MainSectionCard3.vue'
     border-radius: 5px;
 }
 .squere{
+    cursor: pointer;
     border: 1px solid gray;
     font-size: 12px;
 }

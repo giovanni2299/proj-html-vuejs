@@ -1,9 +1,10 @@
 <template>
+    <!-- SECONDA SECTION DEL MAIN -->
     <div>
         <div class="flex margin-bottom">
                 <div class="card">
                     <div class="card-header">
-                        <img :src="`/img/cabrio.jpg`" alt="">
+                        <img src="/img/cabrio.jpg" alt="">
                     </div>
                     <div class="card-body">
                         <p class="class-car">Cabrio</p>
@@ -12,7 +13,7 @@
                 </div>
                 <div class="card">
                     <div class="card-header">
-                        <img :src="`/img/coupe.jpg`" alt="">
+                        <img src="/img/coupe.jpg" alt="">
                     </div>
                     <div class="card-body">
                         <p class="class-car">Coupe</p>
@@ -23,7 +24,7 @@
                 </div>
                 <div class="card">
                     <div class="card-header">
-                        <img :src="`/img/hatchback.jpg`" alt="">
+                        <img src="/img/hatchback.jpg" alt="">
                     </div>
                     <div class="card-body">
                         <p class="class-car">Hatchback</p>
@@ -34,7 +35,7 @@
                 </div>
                 <div class="card">
                     <div class="card-header">
-                        <img :src="`/img/pickup.jpg`" alt="">
+                        <img src="/img/pickup.jpg" alt="">
                     </div>
                     <div class="card-body">
                         <p class="class-car">Pick Up</p>
@@ -45,7 +46,7 @@
                 </div>
                 <div class="card">
                     <div class="card-header">
-                        <img :src="`/img/sedan.jpg`" alt="">
+                        <img src="/img/sedan.jpg" alt="">
                     </div>
                     <div class="card-body">
                         <p class="class-car">Sedan</p>
@@ -56,7 +57,7 @@
                 </div>
                 <div class="card">
                     <div class="card-header">
-                        <img :src="`/img/suv.jpg`" alt="">
+                        <img src="/img/suv.jpg" alt="">
                     </div>
                     <div class="card-body">
                         <p class="class-car">Suv</p>
@@ -90,6 +91,7 @@
     width: calc(100% / 6);
     box-shadow: 2px 2px 2px 2px #e1e1e1;
     padding: 10px;
+    cursor: pointer;
 }
 .class-car{
     margin-bottom: 10px;

@@ -3,8 +3,7 @@
         <div class="container">
             <ul class="row">
                 <li class="col logo-col">
-                    <img class="logo" :src="`/img/favicon-autocar.png`" alt="">
-                    Autocar
+                    <img class="logo" src="/img/logo-autocar11.png" alt="">
                 </li>
                 <li v-for="element in headerItem" class="col">
                     <a :href="element.src">
@@ -83,7 +82,7 @@ import {store} from '../store.js'
 }
 
 .logo{
-    width: 80px;
+    width: 150px;
 }
 
 .img-button{
@@ -92,6 +91,7 @@ import {store} from '../store.js'
     
 }
 .btn{
+    cursor: pointer;
     border: none;
     border-radius: 5px;
     background-color: black;
@@ -99,6 +99,8 @@ import {store} from '../store.js'
     padding: 10px;
 }
 .btn.btn-ham{
+    color: black;
+    background-color: white;
     height: 40px;
 }
 </style>
