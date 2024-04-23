@@ -7,6 +7,7 @@
                 
             </div>
             <MainSectionCard5/>
+            <MainSectionCard6/>
         </div>
     
     </main>
@@ -16,11 +17,13 @@
 import MainSectionSlider from './MainSectionSlider.vue';
 import MainSectionCard1 from './MainSectionCard1.vue';
 import MainSectionCard5 from './MainSectionCard5.vue';
+import MainSectionCard6 from './MainSectionCard6.vue';
     export default {
         components:{
             MainSectionSlider,
             MainSectionCard1,
-            MainSectionCard5
+            MainSectionCard5,
+            MainSectionCard6
         }
     }
 </script>

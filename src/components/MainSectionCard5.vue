@@ -25,25 +25,36 @@
                 </div>
 
                 <div class="card">
-                    <div class="card-hedar">
-                        <p class="customers-message"></p>
-                        
-                    </div>
-                    <img class="customers" src="/img/man2.png" alt="">
-
-                </div>
-                <div class="card">
-                    <div class="card-hedar">
-                       <p class="customers-message"></p> 
+                    <div class="card-header">
+                        <p class="customers-message">One of the quality website i apply to rent a car.There are hundreds of different tools</p>
+                        <div class="quote-right">
+                            <font-awesome-icon :icon="['fas', 'quote-right']" />
+                        </div>
                     </div>
                     <img class="customers" src="/img/testimonial2-1.png" alt="">
+                    <p>Cristian</p>
 
                 </div>
                 <div class="card">
-                    <div class="card-hedar">
-                        <p class="customers-message"></p>
+                    <div class="card-header">
+                       <p class="customers-message">I was trying to sell my car.And i put it here and slod it for ore for more than it was worth.</p> 
+                       <div class="quote-right">
+                            <font-awesome-icon :icon="['fas', 'quote-right']" />
+                        </div>
+                    </div>
+                    <img class="customers" src="/img/man2.png" alt="">
+                    <p>Robert</p>
+
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <p class="customers-message">A fast and reliable vehicle selling site.Rare qualty website with hundeds of model vheicles</p>
+                        <div class="quote-right">
+                            <font-awesome-icon :icon="['fas', 'quote-right']" />
+                        </div>
                     </div>
                     <img class="customers" src="/img/testimonial4-1.png" alt="">
+                    <p>Elizabeth</p>
 
                 </div>
     
@@ -67,7 +78,8 @@
 }
 .img-bg{
     background-image: url('/public/img/comment-bg-autocar.jpg');
-    background-position: center;
+    background-position:top;
+    background-position-y:30px;
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -80,7 +92,11 @@
     font-size: 20px;
 }
 .title{
-    font-size: 40px;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.sub-title{
+    margin-bottom: 20px;
 }
 .container{
     max-width: 1024px;
@@ -106,7 +122,7 @@
 .quote-right{
     z-index: -1;
     font-size: 70px;
-    color: #e2e1e1;
+    color: #eceaea;
     position: absolute;
     top: 35%;
     right: 35%;
