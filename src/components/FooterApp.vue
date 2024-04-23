@@ -9,15 +9,15 @@
                     <ul>
                         <li class="mg-b">
                             <font-awesome-icon class="icon" :icon="['fas', 'location-dot']" />
-                            <span class="text-icon">{{this.store.footerArrayCompanyInfo.adress}}</span>
+                            <span class="text-icon">{{this.store.footerArrayCompanyInfo[0].adress}}</span>
                         </li>
                         <li class="mg-b">
                             <font-awesome-icon class="icon" :icon="['fas', 'phone-volume']" />
-                            <span class="text-icon">{{this.store.footerArrayCompanyInfo.number}}</span>
+                            <span class="text-icon">{{this.store.footerArrayCompanyInfo[1].number}}</span>
                         </li>
                         <li class="mg-b">
                             <font-awesome-icon class="icon" :icon="['far', 'envelope']" />
-                            <span class="text-icon">{{this.store.footerArrayCompanyInfo.mail}}</span>
+                            <span class="text-icon">{{this.store.footerArrayCompanyInfo[2].mail}}</span>
                         </li >
                         <div class="brand-container">
                             <font-awesome-icon class="icon" :icon="['fab', 'facebook-f']" />
