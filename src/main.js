@@ -19,7 +19,9 @@ import
     faWrench,
     faQuoteRight,
     faLocationDot,
-    faPhoneVolume
+    faPhoneVolume,
+    faArrowLeft,
+    faCaretDown,
     
     
 } from '@fortawesome/free-solid-svg-icons'
@@ -28,7 +30,7 @@ import {faThumbsUp, faEnvelope, faStar as faStarEmp} from '@fortawesome/free-reg
 
 import { faInstagram, faFacebookF, faTwitter} from '@fortawesome/free-brands-svg-icons' 
 
-library.add(faBars, faCircleCheck, faDollarSign, faCar, faGasPump, faHeart, faArrowRight, faWrench, faThumbsUp, faStarEmp, faQuoteRight, faLocationDot, faPhoneVolume, faEnvelope, faInstagram, faFacebookF, faTwitter)
+library.add(faBars, faCircleCheck, faDollarSign, faCar, faGasPump, faHeart, faArrowRight, faWrench, faThumbsUp, faStarEmp, faQuoteRight, faLocationDot, faPhoneVolume, faEnvelope, faInstagram, faFacebookF, faTwitter, faArrowLeft, faCaretDown)
 
 const app = createApp(App)
 

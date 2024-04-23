@@ -4,11 +4,36 @@
         <div class="flex margin-bottom">
             <div class="col squere">Keywords</div>
             <div class="col squere">Location</div>
-            <div class="col squere">All Ctegories</div>
-            <div class="col squere">Brand</div>
-            <div class="col squere">Fuel Type</div>
-            <div class="col squere">Transmission</div>
-            <div class="col squere">Status</div>
+            <div class="col squere">
+                All Ctegories
+                <div class="icon">
+                    <font-awesome-icon :icon="['fas', 'caret-down']" />
+                </div>
+            </div>
+            <div class="col squere">
+                Brand
+                <div class="icon">
+                    <font-awesome-icon :icon="['fas', 'caret-down']" />
+                </div>
+            </div>
+            <div class="col squere">
+                Fuel Type
+                <div class="icon">
+                    <font-awesome-icon :icon="['fas', 'caret-down']" />
+                </div>
+            </div>
+            <div class="col squere">
+                Transmission
+                <div class="icon">
+                    <font-awesome-icon :icon="['fas', 'caret-down']" />
+                </div>
+            </div>
+            <div class="col squere">
+                Status
+                <div class="icon">
+                    <font-awesome-icon :icon="['fas', 'caret-down']" />
+                </div>
+            </div>
             <div class="col squere btn">
                 Search
             </div>
@@ -60,14 +85,21 @@ import MainSectionCard4 from './MainSectionCard4.vue';
     border-radius: 5px;
 }
 .squere{
+    display: flex;
+    align-items: center;
     cursor: pointer;
     border: 1px solid gray;
     font-size: 12px;
+    position: relative;
+    
 }
 .col.squere.btn{
     cursor: pointer;
     background-color: black;
     color: white;
 }
-
+.icon{
+    position: absolute;
+    right: 5px;
+}
 </style>

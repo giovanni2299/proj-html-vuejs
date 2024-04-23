@@ -1,7 +1,7 @@
 <template>
     <div class="img-bg">
-        <p class="arrow-right">&rightarrow;</p>
-        <p class="arrow-left">&LeftArrow;</p>
+        <p class="arrow-right"><font-awesome-icon :icon="['fas', 'arrow-right']" /></p>
+        <p class="arrow-left"><font-awesome-icon :icon="['fas', 'arrow-left']" /></p>
         <div class="description-section">
             <h1 class="des-title">
             Buy And Sell Your
@@ -9,7 +9,7 @@
             Car At Its Value
             </h1>
             <span>Find the right price and dealer.</span>
-            <p>Learn more &RightArrow;</p>
+            <p class="text">Learn more <font-awesome-icon :icon="['fas', 'arrow-right']" /></p>
         </div>
     </div>
 </template>
@@ -54,13 +54,19 @@
 .description-section{
     color: white;
     position: absolute;
-    top: 25%;
-    left: 10%;
+    top: 40%;
+    left: 20%;
     font-weight: bold;
  
 }
 .des-title{
-    margin-bottom: 0;
+    margin-bottom: 10px;
+    font-size: 40px;
 }
-
+.text{
+    display: flex;
+    align-items: center;
+    gap:10px;
+    margin-top: 10px;
+}
 </style>
