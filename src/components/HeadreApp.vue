@@ -2,8 +2,9 @@
     <header>
         <div class="container">
             <ul class="row">
-                <li class="col">
-                    <img :src="`/img/favicon-autocar.png`" alt="">
+                <li class="col logo-col">
+                    <img class="logo" :src="`/img/favicon-autocar.png`" alt="">
+                    Autocar
                 </li>
                 <li v-for="element in headerItem" class="col">
                     <a :href="element.src">
@@ -72,6 +73,19 @@ import {store} from '../store.js'
     align-items: center;
     gap: 10px;
 }
+
+.logo-col{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: bold ;
+    font-size: 18px;
+}
+
+.logo{
+    width: 80px;
+}
+
 .img-button{
     width: 20px;
     

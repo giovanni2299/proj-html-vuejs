@@ -3,8 +3,8 @@
         <div class="row">
             <MainSectionSlider/>
             <div class="container">
-                <MainSectionCard/>
-
+                <MainSectionCard1/>
+                
             </div>
         </div>
     
@@ -13,11 +13,11 @@
 
 <script>
 import MainSectionSlider from './MainSectionSlider.vue';
-import MainSectionCard from './MainSectionCard.vue';
+import MainSectionCard1 from './MainSectionCard1.vue';
     export default {
         components:{
             MainSectionSlider,
-            MainSectionCard
+            MainSectionCard1
         }
     }
 </script>

@@ -1,6 +1,6 @@
 <template>
     <div class="padding container">
-        <div class="flex">
+        <div class="flex margin-bottom">
             <div class="col squere">Keywords</div>
             <div class="col squere">Location</div>
             <div class="col squere">All Ctegories</div>
@@ -11,15 +11,20 @@
             <div class="col squere btn">
                 Search
             </div>
-
         </div>
-
+        <MainSectionCard2/>
+        <MainSectionCard3/>
     </div>
 </template>
 
 <script>
+import MainSectionCard2 from './MainSectionCard2.vue'
+import MainSectionCard3 from './MainSectionCard3.vue'
     export default {
-        
+        components:{
+            MainSectionCard2,
+            MainSectionCard3
+        }
     }
 </script>
 
@@ -34,11 +39,14 @@
 }
 .flex{
     display: flex;
-    gap: 10px;
+    gap: 5px;
     align-items: center;
 }
+.margin-bottom{
+    margin-bottom: 24px;
+}
 .col{
-    width: calc(8 * 100% / 12 - 10px);
+    width: calc(100% / 8);
     padding: 24px;
     text-align: center;
     border-radius: 5px;
@@ -51,6 +59,6 @@
     cursor: pointer;
     background-color: black;
     color: white;
-   
 }
+
 </style>
