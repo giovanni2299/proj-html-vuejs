@@ -66,17 +66,6 @@ export default {
     position: relative;
     width: 100%;
 }
-.img-bg-2{
-    display: block;
-    background-image: url('/public/img/slider-autocar-6.jpg');
-    height: 620px;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
-    width: 100%;
-}
-
 .description-section {
     color: white;
     position: absolute;
