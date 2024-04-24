@@ -17,7 +17,7 @@
 
             <div class="col4 flex">
                 <h1>Want to buy or sell a vehicle?</h1>
-                <p>You can put your vehicles for sale by resistering on uor website.Whether you are dealer or sell personally. Sell your veicle in the most profitable way.With this system. Which has milions of members.You will be able to buy and sell vehicles quickly. </p>
+                <p class="text">You can put your vehicles for sale by resistering on uor website.Whether you are dealer or sell personally. Sell your veicle in the most profitable way.With this system. Which has milions of members.You will be able to buy and sell vehicles quickly. </p>
                 <img class="driver" src="/img/divider.jpg" alt="">
                 <div>
 
@@ -114,7 +114,9 @@
     flex-direction: column;
     gap: 20px;
 }
-
+.text{
+    font-size: 18px;
+}
 .driver{
     width: 100px;
 }
@@ -140,6 +142,7 @@
     left: 12px;
 }
 .btn{
+    cursor: pointer;
     color: white ;
     border-radius: 5px;
     padding: 15px 10px;

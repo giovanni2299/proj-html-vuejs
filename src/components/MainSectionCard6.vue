@@ -102,7 +102,7 @@
     margin-bottom: 10px;
 }
 .info-car{
-    margin-bottom: 10px;
+    margin-bottom: 18px;
 }
 .container{
     width: 1024px;
