@@ -56,5 +56,6 @@ export const store = reactive({
             mail: 'exemple@exemple.com'
         },
 
-    ]
+    ],
+   
 })

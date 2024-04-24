@@ -53,6 +53,9 @@
                 </div>
             </div>
         </div>
+        <div class="copy">
+            &copy;2022 Autocar - All Rights Reserved.
+        </div>
     </footer>
 </template>
 
@@ -147,5 +150,10 @@ ul, ol, menu{
 .text-icon{
     font-size: 14px;
     cursor: pointer;
+}
+.copy{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
 }
 </style>
