@@ -147,7 +147,7 @@
 }
 .description{
     text-align: left;
-    font-size: 12px;
+    font-size: 14px;
     margin-bottom: 20px;
 }
 </style>
