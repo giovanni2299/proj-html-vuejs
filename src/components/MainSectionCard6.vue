@@ -1,7 +1,7 @@
 <template>
     <section class="section">
             <font-awesome-icon class="icon" :icon="['far', 'thumbs-up']" />
-            <h1 class="title">Resent Articles</h1>
+            <h1 class="title-section">Resent Articles</h1>
             <p class="info-car">Useful infrmation about car.</p>
 
         <div class="container">
@@ -88,6 +88,9 @@
     padding: 100px;
     text-align: center;
 }
+.title-section{
+    font-size: 30px;
+}
 .icon{
     color: white;
     padding: 10px;
@@ -100,6 +103,7 @@
 }
 .title{
     margin-bottom: 10px;
+    
 }
 .info-car{
     margin-bottom: 18px;
